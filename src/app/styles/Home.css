@@ -1,0 +1,315 @@
+/* App.css */
+.body{
+  overflow-x: hidden;
+  /* background-color: #fcf5ef; */
+}
+.MainVid {
+  width: 100%;
+  overflow: hidden; /* Ensure the sliding images don't overflow */
+  position: relative;
+}
+
+.mainvideo {
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Slide out to the right */
+.slide-out-right {
+  animation: slideOutRight 0.5s ease-in-out forwards;
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* Slide in from the left */
+.slide-in-left {
+  animation: slideInLeft 0.5s ease-in-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.MainVid {
+  margin-top: 100px;
+  padding-bottom: 10vh;
+ display: flex;
+justify-content: center;
+}
+.mainvideo{
+  height: 100vh;
+  width: 96vw;
+}
+
+.welcomemain{
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+/* Style for the Book Now button */
+.book-now-btn {
+  display: inline-block;
+  padding: 20px; /* Add padding for a larger button */
+  width: 10vw;
+  margin-left: 4.5vw;
+  margin-top: 2vh;
+  background-color: #CC7106; /* Yellow background */
+  color: white; /* Black text color */
+
+  border-radius: 50px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  text-decoration: solid;
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline from the link */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.book-now-btn:hover {
+  background-color: #f5b921;/* Slightly darker yellow on hover */
+
+  border-color: #ff9900; /* Lighter border color on hover */
+  transform: scale(1.1); /* Slight scale effect for hover */
+}
+
+
+
+/* annoucement */
+.announcement-banner {
+  position: fixed;
+  top: 30vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 40px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 101;
+  width: 90%;
+  max-width: 600px; /* To keep it small on larger screens */
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Announcement text */
+.announcement-banner p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  flex-grow: 1;
+  text-align: left;
+  padding-right: 10px;
+}
+
+/* Close button styling */
+.announcement-banner button {
+  padding: 15px 35px;
+  background-color: #e2b500;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.announcement-banner button:hover {
+  background-color: #ff9900;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about .ourStory {
+  align-self: flex-start; /* Aligns "Our Story" to the left */
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .body{
+    overflow-x: hidden;  
+  }
+
+
+  .MainVid {
+    padding-bottom: 0vh !important;
+   display: flex;
+  justify-content: center;
+  }
+  .mainvideo{
+   height: 22vh;
+   width: 92vw;
+  }
+
+
+
+
+
+
+  .hotelLogo{
+    height: 20vh !important;
+  }
+  
+  .welcomemain{
+    align-items: center;
+    /* height: 93vh; */
+  }
+  .welcome{
+    /* padding-top: 0vh; */
+    font-size: 4vh !important;
+   
+  }
+  .welcomep{
+    font-size: 2vh !important;
+    color: black !important;
+    
+  }
+  .aboutsub{
+    font-size: 2.5vh !important;
+  }
+  .morning1 {
+    display: flex;
+    flex-direction: column !important; /* Changes flex direction to column on smaller screens */
+ align-items: center;
+
+
+
+  }
+  .morning2 {
+    display: flex;
+    flex-direction: column !important; /* Changes flex direction to column on smaller screens */
+ /* order: 2; */
+  }
+  .gardenimg{
+    /* display: none; */
+    height: 38vh !important;
+    width: 90vw !important;
+  }
+  .garden{
+    height: 35vh !important;
+    width: 70vw !important;
+  }
+  .about{
+    order: 2;
+    align-items: center;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about .ourStory {
+    align-self: center; /* Aligns "Our Story" to the left */
+  }
+
+  .nightimgmain{
+    align-items: center;
+    padding-top: 5vh;
+  }
+  .nightimg{
+   
+    order: 1;
+    height: 32vh;
+    width: 40vh !important;
+    /* padding-left: 10vw; */
+
+  }
+
+/* annoucement */
+.announcement-banner {
+  width: 95%;
+  padding: 8px 15px;
+}
+
+.announcement-banner p {
+  font-size: 12px;
+}
+
+.announcement-banner button {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+
+
+
+
+  /* ROOM PAGE */
+
+  .room{
+/* flex-wrap: nowrap !important; */
+justify-content: center !important;
+flex-direction: column !important;
+width: 60vw !important;
+  }
+  .innerroom{
+ align-items: center !important;
+
+ padding-top: 0vh !important;
+
+  }
+
+  .roomimg{
+    height: 25vh !important;
+    width: 80vw !important;
+
+  }
+  .roomh1 {
+  /* padding-right: 15vh; */
+ font-size: 2.3vh !important;
+
+
+
+  }
+  .pimg,p{
+width: 80vw;
+margin-top: 0vh;
+  } 
+  .restaurantH{
+    font-size: 2.3vh !important;
+  }
+
+  .book-now-btn {
+  width: 130px;
+  padding: 10px;
+  height: 50px;
+    background-color: rgb(255, 230, 0);
+    z-index: 45;
+  }
+  
+  /* Hover effect */
+  .book-now-btn:hover {
+    background-color: #e2b500; /* Slightly darker yellow on hover */
+  
+    border-color: #ff9900; /* Lighter border color on hover */
+    transform: scale(1.1); /* Slight scale effect for hover */
+  }
+
+  
+ 
+
+
+}

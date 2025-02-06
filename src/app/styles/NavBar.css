@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.navbar {
+  background-color:white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed; /* Change from sticky to fixed */
+  top: 0; /* Keep it at the top of the page */
+  width: 100%; /* Ensure it spans the full width of the page */
+  z-index: 1000; /* Keep it on top of other elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a bottom shadow */
+}
+
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0px;
+    max-width: 1500px;
+    position: relative;
+  }
+  .nav-logo {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+   
+  }
+  
+
+  
+  /* .nav-logo span {
+    font-size: 1.5rem; 
+  } */
+  
+  .nav-logo {
+    padding-left: 2vw;
+    color: #082549;
+    align-items: center;
+    margin-left: 0; /* Remove extra margin to bring logo closer */
+    cursor: pointer;
+    text-decoration: none;
+  
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+ 
+  }
+  .nav-logo span{
+    font-size: 1.2rem;
+  }
+  .nav-logo img {
+   /* margin-top: 12px; Remove any extra space on the right side of the logo image */
+    height: 12vh;
+   width: 12vw;
+  }
+  .nav-logo
+  
+  
+  .nav-logo .icon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 16px;
+    
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+    overflow-x: hidden;
+  }
+  
+  .nav-links {
+    color:#CC7106;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+    overflow-x: hidden;
+    font-family:sans-serif;
+  }
+  .nav-links:hover{
+    color: #ffdd40;
+  }
+
+  
+  .nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+  }
+  
+  .nav-item:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+    overflow-x: hidden;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background: #f3f1ea;
+  }
+  
+  .nav-item .active {
+    color: #f3f1ea;
+    border: 1px solid #f3f1ea;
+    overflow-x: hidden;
+  }
+  
+  .nav-icon {
+    display: none;
+    color: #f3f1ea;
+  }
+  
+  .nav-icon .icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1pxsolid #fff;
+      position: absolute;
+      top: 40px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
+      overflow-x: hidden;
+   
+    }
+  .navbar{
+    z-index: 9999; 
+    width: 100vw;
+   
+  
+  }
+    .nav-menu.active {
+      background: white;
+      left: 0px;
+      opacity: 1;
+      width: 100vw;
+      transition: all 0.5s ease;
+      z-index: 100;
+      overflow-x: hidden;
+    }
+    .nav-item .active {
+      color: #f3f1ea;
+      border: none;
+      overflow-x: hidden;
+    }
+    .nav-links {
+      padding: 1.5rem;
+      width: 100%;
+      display: table;
+      overflow-x: hidden;
+      color: #CC7106;;
+    }
+  
+    .nav-logo .icon {
+      width: 2rem;
+      height: 2rem;
+    }
+    
+  .nav-logo img {
+    margin-right: 0px; /* Remove any extra space on the right side of the logo image */
+    height: 8vh;
+   width: 32vw;
+  }
+  
+    .nav-icon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(-100%, -50%);
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+      color: #ffdd40;
+      /* color: #f3f1ea; */
+    }
+  
+  
+  }
+  
