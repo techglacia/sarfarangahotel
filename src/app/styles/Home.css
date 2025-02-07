@@ -178,11 +178,11 @@ justify-content: center;
   }
   .welcome{
     /* padding-top: 0vh; */
-    font-size: 4vh !important;
+    font-size: 1vh !important;
    
   }
   .welcomep{
-    font-size: 2vh !important;
+    font-size: 1vh !important;
     color: black !important;
     
   }
