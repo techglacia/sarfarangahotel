@@ -39,7 +39,7 @@ const BookingInquiryForm = () => {
           "service_96jc2ib", // Replace with your EmailJS service ID
         "template_lqfhyah", // Replace with your EmailJS template ID// Replace with your EmailJS template ID
         updatedFormData,
-        "c9XCReyO7A14Gdlb4" // Replace with your EmailJS user ID
+        "u8EOXWi52kOI1bOvf" // Replace with your EmailJS user ID
       )
       .then(
         (response) => {
