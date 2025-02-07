@@ -24,7 +24,7 @@ const EmailSender = () => {
         "service_96jc2ib", // Replace with your EmailJS service ID
         "template_heeua9j", // Replace with your EmailJS template ID
         formData,
-        "c9XCReyO7A14Gdlb4" // Replace with your EmailJS user ID
+        "u8EOXWi52kOI1bOvf" // Replace with your EmailJS user ID
       )
       .then(
         (response) => {
