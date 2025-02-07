@@ -68,7 +68,7 @@ justify-content: center;
   width: 10vw;
   margin-left: 4.5vw;
   margin-top: 2vh;
-  background-color: #CC7106; /* Yellow background */
+  background-color:#CC7106; /* Yellow background */
   color: white; /* Black text color */
 
   border-radius: 50px; /* Rounded corners */
@@ -296,13 +296,13 @@ margin-top: 0vh;
   width: 130px;
   padding: 10px;
   height: 50px;
-    background-color: rgb(255, 230, 0);
+    background-color:#CC7106;
     z-index: 45;
   }
   
   /* Hover effect */
   .book-now-btn:hover {
-    background-color: #e2b500; /* Slightly darker yellow on hover */
+    background-color: #f5b921; /* Slightly darker yellow on hover */
   
     border-color: #ff9900; /* Lighter border color on hover */
     transform: scale(1.1); /* Slight scale effect for hover */
