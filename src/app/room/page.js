@@ -37,86 +37,86 @@ function page() {
   // Add more guests as needed
 ];
  const guests1 = [
-  {
-    name: "yasir",
-    image: "standardCustomer/2.jpeg",
-    feedback: "The Standard Room was clean, comfortable, and well-equipped. A perfect choice for a relaxing and hassle-free stay!",
+    {
+    name: "Hadia Majid",
+    image: "customer1/1.png",
+    feedback: "The room was cozy and well-kept, offering a peaceful ambiance for a perfect retreat. Loved the view from the window!",
   },
   {
-    name: "yasir2",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Kashif Ahsan",
+    image: "customer1/2.jpeg",
+    feedback: "I had an amazing stay! The room exceeded my expectations, and the staff were very friendly and attentive. Highly recommend!",
   },
   {
-    name: "yasir3",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Hassan Ahmed",
+    image: "customer1/3.jpg",
+    feedback: "A fantastic experience overall! The bed was so comfortable, and the service was impeccable. Can't wait to return!",
   },
   {
-    name: "yasir4",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Brian Martin",
+    image: "customer1/4.jpeg",
+    feedback: "Wonderful stay! The room was spacious, clean, and very inviting. I felt right at home from the moment I walked in.",
   },
   {
-    name: "yasir5",
-    image: "standardCustomer/3.jpeg",
-    feedback: "Great location and amazing hospitality. The room had everything we needed for a comfortable stay.",
+    name: "Jane Smith",
+    image: "customer1/5.jpeg",
+    feedback: "Loved the location! It was perfect for exploring the city, and the room provided everything I needed to unwind after a busy day.",
   },
   // Add more guests as needed
 ];
  const guests2 = [
-  {
-    name: "asif",
-    image: "standardCustomer/2.jpeg",
-    feedback: "The Standard Room was clean, comfortable, and well-equipped. A perfect choice for a relaxing and hassle-free stay!",
+    {
+    name: "Hadia Majid",
+    image: "customer1/1.png",
+    feedback: "The room was cozy and well-kept, offering a peaceful ambiance for a perfect retreat. Loved the view from the window!",
   },
   {
-    name: "asif2",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Kashif Ahsan",
+    image: "customer1/2.jpeg",
+    feedback: "I had an amazing stay! The room exceeded my expectations, and the staff were very friendly and attentive. Highly recommend!",
   },
   {
-    name: "asif3",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Hassan Ahmed",
+    image: "customer1/3.jpg",
+    feedback: "A fantastic experience overall! The bed was so comfortable, and the service was impeccable. Can't wait to return!",
   },
   {
-    name: "asif4",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Brian Martin",
+    image: "customer1/4.jpeg",
+    feedback: "Wonderful stay! The room was spacious, clean, and very inviting. I felt right at home from the moment I walked in.",
   },
   {
-    name: "asif5",
-    image: "standardCustomer/3.jpeg",
-    feedback: "Great location and amazing hospitality. The room had everything we needed for a comfortable stay.",
+    name: "Jane Smith",
+    image: "customer1/5.jpeg",
+    feedback: "Loved the location! It was perfect for exploring the city, and the room provided everything I needed to unwind after a busy day.",
   },
   // Add more guests as needed
 ];
- const guests3 = [
-  {
-    name: "abid1",
-    image: "standardCustomer/2.jpeg",
-    feedback: "The Standard Room was clean, comfortable, and well-equipped. A perfect choice for a relaxing and hassle-free stay!",
+  const guests3 = [
+    {
+    name: "Hadia Majid",
+    image: "customer1/1.png",
+    feedback: "The room was cozy and well-kept, offering a peaceful ambiance for a perfect retreat. Loved the view from the window!",
   },
   {
-    name: "abid2",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Kashif Ahsan",
+    image: "customer1/2.jpeg",
+    feedback: "I had an amazing stay! The room exceeded my expectations, and the staff were very friendly and attentive. Highly recommend!",
   },
   {
-    name: "abid3",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Hassan Ahmed",
+    image: "customer1/3.jpg",
+    feedback: "A fantastic experience overall! The bed was so comfortable, and the service was impeccable. Can't wait to return!",
   },
   {
-    name: "abid4",
-    image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    name: "Brian Martin",
+    image: "customer1/4.jpeg",
+    feedback: "Wonderful stay! The room was spacious, clean, and very inviting. I felt right at home from the moment I walked in.",
   },
   {
-    name: "abid5",
-    image: "standardCustomer/3.jpeg",
-    feedback: "Great location and amazing hospitality. The room had everything we needed for a comfortable stay.",
+    name: "Jane Smith",
+    image: "customer1/5.jpeg",
+    feedback: "Loved the location! It was perfect for exploring the city, and the room provided everything I needed to unwind after a busy day.",
   },
   // Add more guests as needed
 ];
