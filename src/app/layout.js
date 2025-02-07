@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang='en' suppressHydrationWarning>
 <head>
         {/* Link to the favicon */}
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="favicon.png" />
         <meta name="description" content="Your description here" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
