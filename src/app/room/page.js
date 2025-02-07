@@ -9,30 +9,30 @@ import global from '../globals.css';
 function page() {
  // Array of guest data (name, image, and feedback)
  const guests = [
-  {
+    {
     name: "Hadia Majid",
     image: "customer1/1.png",
-    feedback: "The Standard Room was clean, comfortable, and well-equipped. A perfect choice for a relaxing and hassle-free stay!",
+    feedback: "The room was cozy and well-kept, offering a peaceful ambiance for a perfect retreat. Loved the view from the window!",
   },
   {
     name: "Kashif Ahsan",
     image: "customer1/2.jpeg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "I had an amazing stay! The room exceeded my expectations, and the staff were very friendly and attentive. Highly recommend!",
   },
   {
     name: "Hassan Ahmed",
     image: "customer1/3.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "A fantastic experience overall! The bed was so comfortable, and the service was impeccable. Can't wait to return!",
   },
   {
     name: "Brian Martin",
     image: "customer1/4.jpeg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Wonderful stay! The room was spacious, clean, and very inviting. I felt right at home from the moment I walked in.",
   },
   {
     name: "Jane Smith",
     image: "customer1/5.jpeg",
-    feedback: "Great location and amazing hospitality. The room had everything we needed for a comfortable stay.",
+    feedback: "Loved the location! It was perfect for exploring the city, and the room provided everything I needed to unwind after a busy day.",
   },
   // Add more guests as needed
 ];
