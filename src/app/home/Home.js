@@ -125,7 +125,7 @@ const Home = () => {
   <p className="welcomep" style={{paddingLeft: '5vw', paddingRight:'5vw', fontFamily: 'Lato , sans-Serif', fontWeight: '500', fontStyle: 'normal', fontSize:'3.5vh', color:'GrayText'}}>
   Hotel Sarfarande Skardu offers a perfect blend of tranquility and comfort, allowing guests
   to experience the serene beauty of Skardu. Located on Airport Road, Skardu, the hotel is onl
-  y 15-20 minutes from Skardu Airport. Surrounded by stunning landscapes, guests can easily explore
+  y 5-7 minutes from Skardu Airport. Surrounded by stunning landscapes, guests can easily explore
    nearby attractions like Blind Lake,
    Shigar, Sarfanga, and Kachura Lake, all within 15 to 40 minutes' drive.
   </p>
