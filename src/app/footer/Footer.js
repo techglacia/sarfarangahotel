@@ -30,7 +30,7 @@ function Footer() {
                   </li>
                   <li>
                     <a href="https://tailwindcss.com/" className="hover:underline">
-                      +92-3413975290
+                      +92-340 8905227
                     </a>
                   </li>
                 </ul>
