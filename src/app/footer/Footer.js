@@ -12,7 +12,7 @@ function Footer() {
                 <img
                   src="hotelAssets/Logo.jpeg"
                   className="h-8 me-3"
-                  alt="FlowBite Logo"
+                  alt="Logo"
                   height={'100vh'}
                   width={'100vw'}
                 />
