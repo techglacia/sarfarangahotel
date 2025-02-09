@@ -20,7 +20,7 @@ const Facilities = () => {
             </div>
             <div className='min-h-[100vh] w-4/5 mx-auto relative -top-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-4'>
                 <div className="flex flex-col items-center justify-center">
-                    <div className='imageBox w-full h-[460px]' style={{backgroundImage: `url('http://localhost:3000/hotelAssets/familydeluxe.jpeg')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+                    <div className='imageBox w-full h-[460px]' style={{backgroundImage: `url('https://www.sarfarangahotel.com/hotelAssets/familydeluxe.jpeg')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
                         <div className='imageFrame w-full h-full mx-auto border-2 -translate-x-3 translate-y-3 hover:translate-x-3 hover:-translate-y-3 border-[#EAB308] transition duration-300 ease-in-out'></div>
                     </div>
                     <h2 className='mb-2 mt-5 text-lg font-marcellus text-[#495737]'> Luxury Stay</h2>
