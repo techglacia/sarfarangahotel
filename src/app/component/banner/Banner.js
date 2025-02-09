@@ -121,7 +121,7 @@ const Banner = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className={`${styles.parallax} hero min-h-screen`} style={{ backgroundImage: 'url(http://localhost:3000/hotelAssets/chair1.jpeg)' }}>
+            <div className={`${styles.parallax} hero min-h-screen`} style={{ backgroundImage: 'url(https://www.sarfarangahotel.com/hotelAssets/familydeluxe.jpeg)' }}>
               <div className="hero-overlay bg-opacity-40"></div>
               <div className="hero-content text-center text-neutral-content">
               <div className="gsapAni text-center sm:text-left">
