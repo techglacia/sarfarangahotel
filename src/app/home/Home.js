@@ -107,7 +107,7 @@ const Home = () => {
   
 
    
-<<<<<<< HEAD
+
     </div>
 
     <div className="morning2" style={{ display: 'flex',flexDirection:'row' , paddingTop:'0vh'
@@ -141,8 +141,8 @@ const Home = () => {
 
  
     </div>
-=======
->>>>>>> 5b83e56 (Updated files after npm rebuild)
+
+
    
 
 
