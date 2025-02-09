@@ -24,12 +24,20 @@ function Footer() {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
+<<<<<<< HEAD
                     <Link href="/contact" className="hover:underline">
+=======
+                    <Link href="/contact" className="hover:underline text-black">
+>>>>>>> 5b83e56 (Updated files after npm rebuild)
                       Email Us
                     </Link>
                   </li>
                   <li>
+<<<<<<< HEAD
                     <a href="https://tailwindcss.com/" className="hover:underline">
+=======
+                    <a href="https://tailwindcss.com/" className="hover:underline text-black">
+>>>>>>> 5b83e56 (Updated files after npm rebuild)
                       +92-340 8905227
                     </a>
                   </li>
@@ -41,13 +49,21 @@ function Footer() {
                   <li className="mb-4">
                     <a
                       href="https://www.instagram.com/hotelsarfarangaskardu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+<<<<<<< HEAD
                       className="hover:underline"
+=======
+                      className="hover:underline text-black"
+>>>>>>> 5b83e56 (Updated files after npm rebuild)
                     >
                       Instagram
                     </a>
                   </li>
                   <li>
+<<<<<<< HEAD
                     <a href="https://www.facebook.com/sarfarangahotel/" className="hover:underline">
+=======
+                    <a href="https://www.facebook.com/sarfarangahotel/" className="hover:underline text-black">
+>>>>>>> 5b83e56 (Updated files after npm rebuild)
                       Facebook
                     </a>
                   </li>
@@ -57,12 +73,20 @@ function Footer() {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
+<<<<<<< HEAD
                     <a href="#" className="hover:underline">
+=======
+                    <a href="#" className="hover:underline text-black">
+>>>>>>> 5b83e56 (Updated files after npm rebuild)
                       Privacy Policy
                     </a>
                   </li>
                   <li>
+<<<<<<< HEAD
                     <Link href="/terms" className="hover:underline">
+=======
+                    <Link href="/terms" className="hover:underline text-black">
+>>>>>>> 5b83e56 (Updated files after npm rebuild)
                       Terms &amp; Conditions
                     </Link>
                   </li>

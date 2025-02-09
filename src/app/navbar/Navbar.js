@@ -13,7 +13,7 @@ function Navbar() {
    <>
     <nav className="navbar">
         <div className="nav-container">
-        <Link href="/" className="nav-logo flex items-center space-x-0">
+        <Link href="/" className="nav-logo flex items-center lg:items-start space-x-0">
   <img className="m-0" src="/hotelAssets/Logo.jpeg" alt="" />
  
 </Link>

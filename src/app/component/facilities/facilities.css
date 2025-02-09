@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&display=swap');
+
+.font-marcellus{
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: bold;
+    text-align: center;
+    
+  }
+  
+
+.font-jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+}
+/* .imageFrame{
+   
+    position:relative;
+    left:-10px;
+    bottom:-10px;
+   right:10px;
+    top:10px;
+  
+    padding: 5px;
+}
+ .imageFrame:hover {
+   position: static;
+  margin: 0px;
+  
+
+
+
+} 
+
+.imageBox{
+   
+}
+.imageFrame:hover  .imageBox{
+   
+} */

@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
 import Link from 'next/link';
+import Head from "next/head";
 import { useState, useEffect } from 'react';
 import Footer from '../footer/Footer';
 import global from '../globals.css';
@@ -192,6 +193,44 @@ useEffect(() => {
 
   return (
  <>
+    <Head>
+        {/* Title of the page */}
+        <title>Hotel Sarfanga| Best Hotel in Skardu</title>
+
+        {/* Meta description */}
+        <meta
+          name="description"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
+        />
+        <meta name="robots" content="index, follow" />
+
+        {/* Meta keywords */}
+        <meta
+          name="keywords"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
+        />
+
+        {/* Open Graph meta tags for social media sharing */}
+        <meta property="og:title" content="Rus Olive Lodge | A Nature Lodge in Skardu" />
+        <meta
+          property="og:description"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
+        />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card meta tags for Twitter sharing */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hotel Sarfaranga | Luxury Hotel in Skardu" />
+        <meta
+          name="twitter:description"
+          content="Book your stay at Hotel Sarfaranga, a comfortable hotel offering affordable rooms in Skardu."
+        />
+    
+
+      
+      </Head>
     <Navbar/>
  <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-col">

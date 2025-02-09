@@ -10,46 +10,41 @@ const Restaurant = () => {
     <div className="body">
       <Head>
         {/* Title of the page */}
-        <title>Hotel Sarfanga| Best Hotel in Skardu - Cozy, Comfortable & Affordable</title>
+        <title>Hotel Sarfanga| Best Hotel in Skardu</title>
 
         {/* Meta description */}
         <meta
           name="description"
-          content="Rus Olive Lodge is a small lodge situated in the beautiful Skardu Valley, deep in the mountains of the Karakoram range"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
         />
         <meta name="robots" content="index, follow" />
 
         {/* Meta keywords */}
         <meta
           name="keywords"
-          content="Rus Olive Lodge, Skardu hotels, affordable hotels Skardu, cozy lodge Skardu, best hotels in Skardu, places to stay in Skardu, Skardu tourism, hotel near UOB Sundus Campus Skardu, vacation Skardu, hotel in Skardu for tourists"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
         />
 
         {/* Open Graph meta tags for social media sharing */}
         <meta property="og:title" content="Rus Olive Lodge | A Nature Lodge in Skardu" />
         <meta
           property="og:description"
-          content="Rus Olive Lodge is a small lodge situated in the beautiful Skardu Valley, deep in the mountains of the Karakoram range"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
         />
-        <meta property="og:image" content="https://www.rusolivelodge.com/images/lodge.jpg" />
-        <meta property="og:url" content="https://rusolivelodge.com" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card meta tags for Twitter sharing */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Rus Olive Lodge | Cozy & Affordable Lodge in Skardu" />
+        <meta name="twitter:title" content="Hotel Sarfaranga | Luxury Hotel in Skardu" />
         <meta
           name="twitter:description"
-          content="Book your stay at Rus Olive Lodge, a comfortable hotel offering affordable rooms and great service in the heart of Skardu."
+          content="Book your stay at Hotel Sarfaranga, a comfortable hotel offering affordable rooms in Skardu."
         />
-        <meta name="twitter:image" content="https://www.rusolivelodge.com/images/lodge.jpg" />
+    
 
-        {/* Open Graph locale (optional, good for regional SEO) */}
-        <meta property="og:locale" content="en_US" />
-
-        {/* Canonical URL - Prevents duplicate content issues */}
-        <link rel="canonical" href="https://rusolivelodge.com" />
-        <meta name="google-site-verification" content="K_pEM6EH78qy2-mzv9wqmGVp4K31IbaZl1fI9j9LIxI" />
+      
       </Head>
       <Navbar/>
 
@@ -61,8 +56,8 @@ const Restaurant = () => {
         <img
           loading="lazy"
           className="gardenimg"
-          src="Homeimg/apricotinfusion.webp"
-          alt="Apricot Infusion"
+          src="https://images.getrecipekit.com/20220923191452-tomato-20egg-20soup.png?aspect_ratio=16:9&quality=90&"
+          alt="Balay"
           style={{ height: "70vh", width: '150vw' }}
         />
 

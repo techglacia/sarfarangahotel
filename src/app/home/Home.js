@@ -6,11 +6,20 @@
 import React, { useState, useEffect } from "react";
 import Link from 'next/link';
 import Navbar from "../navbar/Navbar";
-import '../styles/Home.css'
-// import youtube from './assets/New folder/youtube.png';
+import Head from "next/head";
+import Location from "../component/map/Location";
+import Feedback from "../component/reviews/Feedback"
 
+import '../styles/Home.css'
+import '../styles/style.css'
+// import youtube from './assets/New folder/youtube.png';
+import Banner from "../component/banner/Banner";
 // import { Helmet } from 'react-helmet';
+
 import Footer from './../footer/Footer';
+import Facilities from "../component/facilities/Facilities";
+import Services from "../component/services/Services";
+import FeaturedRooms from "../component/featured/Featured";
 
 
 const Home = () => {
@@ -39,67 +48,66 @@ const Home = () => {
       return () => clearInterval(interval);
     }, []);
   
-  
-  
+
   return (
   
     <div className="body">
-     
-   <Navbar/>
-      <div>
-      {/* Overlay to dim the background */}
-      {/* {showAnnouncement && (
-        <div 
-          className="overlay" 
-          onClick={closeAnnouncement}
+        <Head>
+        {/* Title of the page */}
+        <title>Hotel Sarfanga| Best Hotel in Skardu</title>
+
+        {/* Meta description */}
+        <meta
+          name="description"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
         />
-      )} */}
+        <meta name="robots" content="index, follow" />
 
-      {/* Announcement Banner */}
-      {/* {showAnnouncement && (
-        <div className="announcement-banner">
-          <h2>Announcement</h2> <p className="welcomep" style={{paddingLeft: '0vw', fontFamily: 'Lato , sans-Serif', fontWeight: '500', fontStyle: 'normal', fontSize:'2.5vh' ,color:'GrayText'}}>
-            Hotel Sarfanga Skardu is closing on November 1, 2024. We will be back in March 2025 to welcome blossoms in Skardu. See you in March.</p>
-          <button onClick={closeAnnouncement}>Close</button>
-        </div>
-      )} */}
+        {/* Meta keywords */}
+        <meta
+          name="keywords"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
+        />
 
-   
-    </div>
-  
+        {/* Open Graph meta tags for social media sharing */}
+        <meta property="og:title" content="Rus Olive Lodge | A Nature Lodge in Skardu" />
+        <meta
+          property="og:description"
+          content="Hotel Sarfaranga offers a perfect blend of comfort and adventure in the heart of Skardu. With breathtaking mountain views, elegant rooms, and top-notch hospitality, it’s the ideal retreat for travelers seeking luxury and nature’s beauty"
+        />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
 
-    <div className="MainVid">
-      <img
-        key={currentImageIndex} // Ensures React recognizes the change
-        loading="lazy"
-        src={images[currentImageIndex]}
-        className={`mainvideo ${animationState}`}
-        alt="Hotel View"
-      />
-    </div>
-
-
-
-    <div className="morning1" style={{ display: 'flex',flexDirection:'row'}}>
-
-  
+        {/* Twitter Card meta tags for Twitter sharing */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hotel Sarfaranga | Luxury Hotel in Skardu" />
+        <meta
+          name="twitter:description"
+          content="Book your stay at Hotel Sarfaranga, a comfortable hotel offering affordable rooms in Skardu."
+        />
     
-    <div className="welcomemain" style={{display:'flex',flexDirection:"column"}} >
-    <h1 className="welcome" style={{paddingLeft: '5vw',paddingTop:'5vh', fontSize:'8vh'}}>Welcome</h1>
-      <p className="welcomep" style={{paddingLeft: '5vw', fontFamily: 'Lato , sans-Serif', fontWeight: '500', fontStyle: 'normal', fontSize:'3.5vh' ,color:'GrayText'}}>
-      Hotel Sarfaranga is a charming hotel located on Airport Road in Skardu. Our hotel offers a peaceful retreat with 
-      easy access to local attractions, making it the perfect place to experience the beauty and culture of the region.
-       Whether you're here for business or leisure, Hotel
-       Sarfaranga provides a comfortable and convenient place to stay. Book your stay today and enjoy 
-    the tranquility of Skardu</p>
-       <Link href="/roomQuery" className="book-now-btn">
-    Book Now 
-    </Link>
-    <img loading="lazy" className="garden" src="hotelAssets/morninggarden.jpeg" alt=""  height="10vh"  style={{ width: '80vw' }}/>
-        
 
-    </div>
+      
+      </Head>
+<Navbar/>
+
+     <Banner/>
+   <Services/>
+   <Facilities/>
+   {/* <FeaturedRooms/> */}
+   <Location/>
+   <Feedback/>
+
+
    
+
+
+
+  
+
+   
+<<<<<<< HEAD
     </div>
 
     <div className="morning2" style={{ display: 'flex',flexDirection:'row' , paddingTop:'0vh'
@@ -133,6 +141,8 @@ const Home = () => {
 
  
     </div>
+=======
+>>>>>>> 5b83e56 (Updated files after npm rebuild)
    
 
 

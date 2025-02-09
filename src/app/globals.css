@@ -1,7 +1,27 @@
+/* Tailwind CSS imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Google Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&display=swap');
+
+/* Custom Font Classes */
+.font-marcellus {
+  font-family: "Marcellus", serif;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.font-jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Global Color Variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -9,18 +29,14 @@
 
 
 
+/* Body Styling */
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Jost", sans-serif; /* Default font for body */
 }
 
-/* .feedback-slide {
-  position: absolute;
-  width: 100%;
-} */
-
-/* Slide out to the right */
+/* Slide Animations */
 .slide-out-right {
   animation: slideOutRight 0.5s ease-in-out forwards;
 }
@@ -34,7 +50,6 @@ body {
   }
 }
 
-/* Slide in from the left */
 .slide-in-left {
   animation: slideInLeft 0.5s ease-in-out forwards;
 }
@@ -48,8 +63,7 @@ body {
   }
 }
 
-
-/* Add this to your global CSS file or use Tailwind classes */
+/* Feedback Slide Styles */
 .feedback-slide {
   width: 100%;
   max-width: 300px; /* Adjust as needed */
