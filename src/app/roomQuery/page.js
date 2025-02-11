@@ -101,10 +101,10 @@ const BookingInquiryForm = () => {
               required
             >
               <option value="">Select Room Category</option>
-              <option value="Family Suite Room">Family Suite Room-PKR 12,000 </option>
-              <option value="Family Deluxe Room">Family Deluxe Room-PKR 7,000 </option>
-              <option value="Deluxe Room">Deluxe Room-PKR 8,000</option>
-              <option value="Family Standard Room">Family Standard Room-PKR 6,000 </option>
+              <option value="Family Suite Room">Family Suite Room- PKR 12,000 </option>
+              <option value="Family Deluxe Room">Family Deluxe Room- PKR 7,000 </option>
+              <option value="Deluxe Room">Deluxe Room- PKR 8,000</option>
+              <option value="Family Standard Room">Family Standard Room- PKR 6,000 </option>
             </select>
           </div>
           <div className="mb-4">
