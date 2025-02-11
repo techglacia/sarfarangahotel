@@ -15,7 +15,7 @@ function page() {
     feedback: "The Standard Room was clean, comfortable, and well-equipped. A perfect choice for a relaxing and hassle-free stay!",
   },
   {
-    name: "Kashif Ahsan",
+    name: "Fatima Lodhi",
     image: "customer1/2.jpeg",
     feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
   },
@@ -30,96 +30,96 @@ function page() {
     feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
   },
   {
-    name: "Jane Smith",
+    name: "Faraz Ahmed",
     image: "customer1/5.jpeg",
     feedback: "Great location and amazing hospitality. The room had everything we needed for a comfortable stay.",
   },
   // Add more guests as needed
 ];
- const guests1 = [
+const guests1 = [
   {
-    name: "yasir",
+    name: "Ali",
     image: "standardCustomer/2.jpeg",
-    feedback: "The Standard Room was clean, comfortable, and well-equipped. A perfect choice for a relaxing and hassle-free stay!",
+    feedback: "The room was spotless and very cozy. Loved the peaceful ambiance!",
   },
   {
-    name: "yasir2",
+    name: "Emma",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Beautiful decor and super comfortable bed. Will visit again!",
   },
   {
-    name: "yasir3",
+    name: "Hamza",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Had a fantastic stay. Everything was just perfect!",
   },
   {
-    name: "yasir4",
+    name: "Sophia",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "The hospitality was amazing. Highly recommended!",
   },
   {
-    name: "yasir5",
+    name: "Aisha",
     image: "standardCustomer/3.jpeg",
-    feedback: "Great location and amazing hospitality. The room had everything we needed for a comfortable stay.",
+    feedback: "Great location and top-notch service. Worth every penny!",
   },
-  // Add more guests as needed
 ];
- const guests2 = [
+
+const guests2 = [
   {
-    name: "asif",
+    name: "Usman",
     image: "standardCustomer/2.jpeg",
-    feedback: "The Standard Room was clean, comfortable, and well-equipped. A perfect choice for a relaxing and hassle-free stay!",
+    feedback: "Very clean and comfortable. Ideal for a short trip!",
   },
   {
-    name: "asif2",
+    name: "Olivia",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Absolutely loved the experience. Felt like home!",
   },
   {
-    name: "asif3",
+    name: "Bilal",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Amazing place with friendly staff. Would stay again!",
   },
   {
-    name: "asif4",
+    name: "Hannah",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Cozy and relaxing. Just what I needed!",
   },
   {
-    name: "asif5",
+    name: "Tariq",
     image: "standardCustomer/3.jpeg",
-    feedback: "Great location and amazing hospitality. The room had everything we needed for a comfortable stay.",
+    feedback: "Fantastic hospitality and perfect location!",
   },
-  // Add more guests as needed
 ];
- const guests3 = [
+
+const guests3 = [
   {
-    name: "abid1",
+    name: "Zain",
     image: "standardCustomer/2.jpeg",
-    feedback: "The Standard Room was clean, comfortable, and well-equipped. A perfect choice for a relaxing and hassle-free stay!",
+    feedback: "Clean, quiet, and very comfortable. Great for a getaway!",
   },
   {
-    name: "abid2",
+    name: "Ella",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Loved the interior and the vibe. Will visit again!",
   },
   {
-    name: "abid3",
+    name: "Faisal",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Superb place with great service. Would stay again!",
   },
   {
-    name: "abid4",
+    name: "Mia",
     image: "customer/1.jpeg.jpg",
-    feedback: "Absolutely loved the room! The decor was beautiful, and the bed was incredibly comfortable. Will definitely stay again!",
+    feedback: "Everything was perfect. Can't wait to come back!",
   },
   {
-    name: "abid5",
+    name: "Noor",
     image: "standardCustomer/3.jpeg",
-    feedback: "Great location and amazing hospitality. The room had everything we needed for a comfortable stay.",
+    feedback: "Perfect location and great value for money!",
   },
-  // Add more guests as needed
 ];
+
 
 // State to track the current guest index
 const [currentGuestIndex, setCurrentGuestIndex] = useState(0);
