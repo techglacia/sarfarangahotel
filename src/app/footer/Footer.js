@@ -27,11 +27,11 @@ function Footer() {
                       Email Us
                     </Link>
                   </li>
-                  <li>
-                    <a href="" className="hover:underline text-black">
-                      +92-322 7772941
-                    </a>
-                  </li>
+                              <li>
+  <a href="tel:+923408905227" className="hover:underline text-black">
+    +92-340 8905227
+  </a>
+</li>
                 </ul>
               </div>
               <div>
