@@ -22,11 +22,11 @@ function Footer() {
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                    <Link href="/contact" className="hover:underline text-black">
-                      Email Us
-                    </Link>
-                  </li>
+                    <li className="mb-4">
+  <a href="mailto:sarfarangahotel@gmail.com " className="hover:underline text-black">
+    Email Us
+  </a>
+</li>
                               <li>
   <a href="tel:+923408905227" className="hover:underline text-black">
     +92-340 8905227
