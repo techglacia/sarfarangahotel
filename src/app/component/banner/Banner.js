@@ -47,7 +47,7 @@ const Banner = () => {
   <div className="flex sm:block flex-col items-center">
   <p className="mb-5 font-jost text-white text-center sm:text-left">
     Book your Stay and Enjoy a Luxury Experience. <br />
-    Book your room now, starting from BDT 2000 per night.
+    Book your room now, starting from PKR 6000 per night.
   </p>
   {/* Flexbox ONLY for mobile */}
 <div className="mob flex sm:block flex-row items-center">
