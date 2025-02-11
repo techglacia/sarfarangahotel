@@ -12,8 +12,8 @@ const Services = () => {
     },
     {
       image: "/assets/images/food-tray.png",
-      heading: "Buffet Breakfast",
-      subheading: "Delicious meals and a complimentary breakfast buffet."
+      heading: "Breakfast",
+      subheading: "Delicious meals and a complimentary breakfast."
     },
     {
       image: "/assets/images/customer-service.png",
