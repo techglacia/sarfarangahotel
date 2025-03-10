@@ -48,9 +48,7 @@ const Restaurant = () => {
       </Head>
       <Navbar/>
 
-      <div style={{ display: 'flex', width: '100vw', justifyContent: 'center', alignItems: 'center' }}>
-        <img className="hotelLogo" style={{ height: '40vh' }} src="favicon1.png" alt="Rus Olive Lodge Logo" />
-      </div>
+     
 
       <div className="morning1" style={{ display: 'flex', flexDirection: 'row' }}>
         <img
