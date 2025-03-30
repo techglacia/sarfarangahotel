@@ -27,7 +27,7 @@ const Facilities = () => {
                     <p className='font-jost my-1'>Relax and unwind in our luxurious suites, where elegance meets comfort. Indulge in personalized hospitality and exquisite amenities for a truly opulent stay</p>
                 </div>
                 <div className="flex flex-col items-center justify-center pt-24">
-                    <div className='imageBox w-full h-[460px]' style={{backgroundImage: `url('https://thesaneadventurer.com/wp-content/uploads/2020/08/IMG-20200314-WA0049-1024x768.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+                    <div className='imageBox w-full h-[460px]' style={{backgroundImage: `url('https://visitinpakistan.com/wp-content/uploads/2022/07/Skardu-katpana_cold_desert-1024x682.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
                         <div className='imageFrame w-full h-full mx-auto border-2 -translate-x-3 translate-y-3 hover:translate-x-3 hover:-translate-y-3 border-[#EAB308] transition duration-300 ease-in-out'></div>
                     </div>
                     <h2 className='mb-2 mt-5 font-marcellus text-[#495737]'> Activities</h2>
